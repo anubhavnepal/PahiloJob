@@ -1,0 +1,65 @@
+.nav ul {
+  list-style: none;
+}
+
+.nav ul li {
+  display: inline;
+}
+
+.nav ul li a {
+  text-transform: uppercase;
+  color: #b3b9bb;
+  text-decoration: none;
+  padding: 19px;
+}
+
+ul {
+  list-style: none;
+}
+
+section.search-bar-custom {
+  background: #e6f6ec;
+  height: 40vh;
+}
+
+section.search-bar-custom .containerr .find-jobs {
+  background-color: #ffffff;
+  border: 20px solid #ffffff;
+}
+
+section.search-bar-custom .containerr .find-jobs .input-group {
+  margin-right: 5rem;
+}
+
+section.search-bar-custom .containerr .find-jobs .dropdown {
+  margin-right: 5rem;
+}
+
+section.search-bar-custom .containerr .find-jobs span {
+  background: none;
+}
+
+section.search-bar-custom .containerr .find-jobs input[type="search"] {
+  border: none;
+}
+
+section.search-bar-custom .containerr .find-jobs input[type="search"]:focus,
+section.search-bar-custom .containerr .find-jobs button:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  outline: 0 none;
+}
+
+section.type-of-employment .employment-options {
+  background: #e6f6ec;
+}
+
+section.search-results .top-most {
+  border: 1px solid #cccccc;
+  border-radius: 20px;
+}
+
+section.footer {
+  background: #e6f6ec;
+}
+/*# sourceMappingURL=style.css.map */

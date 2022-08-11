@@ -1,0 +1,61 @@
+.nav {
+  ul {
+    list-style: none;
+    li {
+      display: inline;
+      a {
+        text-transform: uppercase;
+        color: #b3b9bb;
+        text-decoration: none;
+        padding: 19px;
+      }
+    }
+  }
+}
+ul {
+    list-style: none;
+}
+section {
+  &.search-bar-custom {
+    background: #e6f6ec;
+    height: 40vh;
+    .containerr {
+      .find-jobs {
+        background-color: #ffffff;
+        border: 20px solid#ffffff;
+        .input-group {
+          margin-right: 5rem;
+        }
+        .dropdown {
+          margin-right: 5rem;
+        }
+        span {
+          background: none;
+        }
+        input[type="search"] {
+          border: none;
+        }
+        input[type="search"]:focus,
+        button:focus {
+          box-shadow: none;
+          outline: 0 none;
+        }
+      }
+    }
+  }
+  &.type-of-employment {
+    .employment-options {
+      background: #e6f6ec;
+    }
+  }
+  &.search-results {
+    .top-most {
+      border: 1px solid #cccccc;
+      border-radius: 20px;
+    }
+  }
+  &.footer {
+    background: #e6f6ec;
+
+  }
+}
