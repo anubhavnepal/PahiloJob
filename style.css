@@ -17,6 +17,16 @@ ul {
   list-style: none;
 }
 
+.light-green {
+  background: #e6f6ec;
+  border: 1px solid #e6f6ec;
+  border-radius: 27px;
+}
+
+.active {
+  color: #151515 !important;
+}
+
 section.search-bar-custom {
   background: #e6f6ec;
   height: 40vh;
@@ -61,5 +71,55 @@ section.search-results .top-most {
 
 section.footer {
   background: #e6f6ec;
+}
+
+section.copyright {
+  background: #fedb8e;
+}
+
+section.copyright i {
+  cursor: pointer;
+  font-size: 1.35rem !important;
+}
+
+section.profile-picture {
+  position: relative;
+}
+
+section.profile-picture .container .bg-img {
+  width: 100%;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 0.3;
+}
+
+section.profile-picture .container .avatar-img {
+  position: absolute;
+  top: 50%;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  z-index: 55;
+}
+
+section.profile-picture .container .avatar-description {
+  position: absolute;
+  top: 82%;
+}
+
+section.about-candidate .candidate-information {
+  background: #fedb8e;
+  border: 1px solid #fedb8e;
+  border-radius: 25px;
+}
+
+section.company-list .company-description {
+  border: 1px solid #b3b9bb;
+  border-radius: 30px;
+}
+
+section.roadmap .explore-more {
+  color: #337ab7;
 }
 /*# sourceMappingURL=style.css.map */

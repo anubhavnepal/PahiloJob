@@ -13,7 +13,15 @@
   }
 }
 ul {
-    list-style: none;
+  list-style: none;
+}
+.light-green{
+   background: #e6f6ec;
+      border: 1px solid #e6f6ec;
+      border-radius: 27px;
+}
+.active {
+  color: #151515 !important;
 }
 section {
   &.search-bar-custom {
@@ -56,6 +64,64 @@ section {
   }
   &.footer {
     background: #e6f6ec;
+  }
+  &.copyright {
+    background: #fedb8e;
+    i {
+      cursor: pointer;
+      font-size: 1.35rem !important;
+    }
+  }
+  &.profile-picture {
+    position: relative;
+    .container {
+      .bg-img {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+        opacity: 0.3;
+      }
+      .avatar {
+        
+        &-img{
+          position: absolute;
+          top: 50%;
+          // right: 50%;
+          width: 120px;
+          height: 120px;
+          border-radius: 50%;
+          z-index: 55;
+        }
+        &-description {
+          position: absolute;
+          top: 82%;
+        }
+      }
+    }
 
+  }
+  &.about-candidate{
+    .candidate-information{
+      background: #fedb8e;
+      border: 1px solid #fedb8e;
+      border-radius: 25px;
+    }
+  }
+  &.candidate-skills{
+  
+    .work-experience{
+
+    }
+  }
+  &.company-list{
+    .company-description{
+      border: 1px solid #b3b9bb;
+      border-radius: 30px;
+    }
+  }
+  &.roadmap{
+    .explore-more{
+      color: #337ab7;
+    }
   }
 }
